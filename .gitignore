@@ -1,0 +1,8 @@
+/.venv/
+*.c
+*.pyd
+*.so
+/dist/
+/textwizard.egg-info/
+/corpus/build_cython/
+/corpus/ngram/

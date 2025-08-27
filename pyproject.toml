@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wizardextract"
+version = "1.0.0"
+description = "Text extraction from PDFs, Word files, spreadsheets, and images. Local OCR with Tesseract and optional Azure Document Intelligence for text, tables, and key–value pairs. Includes page/sheet selection and a hybrid PDF mode."
+license = { file = "LICENSE" }
+
+readme = { file = "README.md", content-type = "text/markdown" }
+
+authors = [{ name = "Mattia Rubino", email = "textwizard.dev@gmail.com" }]
+requires-python = ">=3.9"
+keywords = [
+  "text-extraction",
+  "ocr",
+  "tesseract",
+  "pdf",
+  "docx",
+  "xls",
+  "xlsx",
+  "azure-document-intelligence",
+  "tables",
+  "key-value"
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Intended Audience :: Developers",
+  "Topic :: Text Processing",
+  "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)"
+]
+
+dependencies = [
+  "pip>=2.3.1",
+  "PyMuPDF>=1.25.0",
+  "pytesseract>=0.3.13",
+  "xlrd>=2.0.1",
+  "openpyxl>=3.1.5",
+]
+
+[project.optional-dependencies]
+azure = ["azure-ai-documentintelligence>=1.0.2", "azure-core>=1.24.0"]
+
+[project.urls]
+Homepage = "https://github.com/textwizard-dev/wizardextract"
+Source = "https://github.com/textwizard-dev/wizardextract"
+Documentation = "https://wizardextract.readthedocs.io/en/latest/"
+
+[tool.setuptools]
+include-package-data = true
+license-files = ["LICENSE"] 
+
+[tool.setuptools.packages.find]
+include = ["wizardextract", "wizardextract.*"]
+
