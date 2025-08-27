@@ -2,7 +2,7 @@ from datetime import date
 
 project = "WizardExtract"
 author = "Mattia Rubino"
-release = "0.1.0"
+release = "1.0.0"
 copyright = f"{date.today().year} {author}"
 
 pypi_slug = "WizardExtract"

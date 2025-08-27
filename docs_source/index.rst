@@ -1,5 +1,5 @@
 ================
-TextWizard Docs
+Wizard Extract Docs
 ================
 
 .. toctree::
