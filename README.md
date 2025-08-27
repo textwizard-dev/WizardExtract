@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/wizardextract-dev/wizardextract/main/asset/WizardExtract%20Banner.png"
+<img src="https://raw.githubusercontent.com/textwizard-dev/WizardExtract/main/asset/WizardExtract%20Banner.png"
      alt="WizardExtract Banner" width="800" height="300">
 
 ---
@@ -6,7 +6,7 @@
 # Wizard Extract
 [![PyPI - Version](https://img.shields.io/pypi/v/wizardextract)](https://pypi.org/project/wizardextract/)
 [![PyPI - Downloads/month](https://img.shields.io/pypi/dm/wizardextract?label=PyPI%20downloads)](https://pypistats.org/packages/wizardextract)
-[![License](https://img.shields.io/pypi/l/wizardextract)](https://github.com/wizardextract-dev/wizardextract/blob/main/LICENSE)
+[![License](https://img.shields.io/pypi/l/wizardextract)](https://github.com/textwizard-dev/wizardextract/blob/main/LICENSE)
 
 
 **WizardExtract**  is a Python library for reliable text extraction from PDFs, Office documents, and images. It supports local OCR with Tesseract and cloud OCR with Azure Document Intelligence. It provides page and sheet selection, hybrid PDF handling that combines native text with OCR, and deterministic I/O. With Azure prebuilt-layout it can also return tables and key-value pairs.
@@ -163,7 +163,7 @@ print(res.key_value)
 
 ## RESOURCES
 
-- [GitHub Repository](https://github.com/wizardextract-dev/wizardextract)
+- [GitHub Repository](https://github.com/textwizard-dev/wizardextract)
 - [Documentation](https://wizardextract.readthedocs.io/en/latest/)
 - [PyPI Package](https://pypi.org/project/wizardextract/)
 ---
@@ -171,4 +171,4 @@ print(res.key_value)
 ## Contact & Author
 
 **Author:** Mattia Rubino  
-**Email:** <wizardextract.dev@gmail.com>
+**Email:** <textwizard.dev@gmail.com>

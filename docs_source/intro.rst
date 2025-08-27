@@ -17,7 +17,7 @@ Wizard Extract
    :alt: PyPI - Downloads/month
 
 .. image:: https://img.shields.io/pypi/l/wizardextract.svg
-   :target: https://github.com/wizardextract-dev/wizardextract/blob/main/LICENSE
+   :target: https://github.com/textwizard-dev/wizardextract/blob/main/LICENSE
    :alt: License
 
 
@@ -204,7 +204,7 @@ Resources
 
 - `PyPI Package <https://pypi.org/project/wizardextract/>`_
 - `Documentation <https://wizardextract.readthedocs.io/en/latest/>`_
-- `GitHub Repository <https://github.com/wizardextract-dev/wizardextract>`_
+- `GitHub Repository <https://github.com/textwizard-dev/wizardextract>`_
 
 .. _contact_author:
 
@@ -212,4 +212,4 @@ Contact & Author
 ================
 
 :Author: Mattia Rubino
-:Email: `wizardextract.dev@gmail.com <mailto:wizardextract.dev@gmail.com>`_
+:Email: `textwizard.dev@gmail.com <mailto:wizardextract.dev@gmail.com>`_
