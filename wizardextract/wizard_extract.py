@@ -129,9 +129,9 @@ class WizardExtract:
 
         Example:
             ```python
-            import textwizard as tw
+            import wizardextract as we
 
-            res = tw.extract_text_azure(
+            res = we.extract_text_azure(
                 "invoice.pdf",
                 language_ocr="ita",
                 azure_endpoint="https://myocr.cognitiveservices.azure.com/",

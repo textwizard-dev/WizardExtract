@@ -1,6 +1,6 @@
-================
-Wizard Extract Docs
-================
+==============
+Wizard Extract
+==============
 
 .. toctree::
    :maxdepth: 2

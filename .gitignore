@@ -3,6 +3,5 @@
 *.pyd
 *.so
 /dist/
-/textwizard.egg-info/
-/corpus/build_cython/
-/corpus/ngram/
+/wizardextract.egg-info/
+/test/test_text_extractor/baselines/

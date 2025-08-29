@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wizardextract"
-version = "1.0.0"
+version = "1.0.1"
 description = "Text extraction from PDFs, Word files, spreadsheets, and images. Local OCR with Tesseract and optional Azure Document Intelligence for text, tables, and key–value pairs. Includes page/sheet selection and a hybrid PDF mode."
 license = { file = "LICENSE" }
 

@@ -1,6 +1,6 @@
-==========
+==============
 Wizard Extract
-==========
+==============
 
 .. figure:: _static/img/WizardExtractBanner.png
    :alt: WizardExtract Banner
@@ -212,4 +212,4 @@ Contact & Author
 ================
 
 :Author: Mattia Rubino
-:Email: `textwizard.dev@gmail.com <mailto:wizardextract.dev@gmail.com>`_
+:Email: `textwizard.dev@gmail.com <mailto:textwizard.dev@gmail.com>`_
